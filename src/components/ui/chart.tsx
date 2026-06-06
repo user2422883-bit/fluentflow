@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils"
 
 const THEMES = { light: "", dark: ".dark" } as const
 
-const INITIAL DIMENSION = { width: 320, height: 200 } as const
+const INITIAL_DIMENSION: { width: number; height: number } = { width: 320, height: 200 }
 type TooltipNameType = number | string
 
 export type ChartConfig = Record<
